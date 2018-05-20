@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  LarryCycleTableView
+//
+//  Created by Larry Mac Pro on 2018/5/18.
+//  Copyright © 2018年 LarryTwofly. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+//
+#ifdef __OBJC__
+
+#import <Masonry.h>
+#import "UIImageView+WebCache.h"
+#import "UIColor+hexStringToColor.h"
+
+#endif
+
+
+//debug模式
+#ifdef DEBUG
+#define MyLog(...) NSLog(__VA_ARGS__)
+#else
+#define MyLog(...)
+#endif
+
+//宏定义部分
+#define MultipleOfSection 10000     //类型为NSInteger，注意最大值
+
+//图片定义
+#define PlaceholderImage [UIImage imageNamed:@"PlaceholderImage"]    //默认占位图(暂不用)
+#define LoadingImage [UIImage imageNamed:@"LoadingImage"]            //加载中的图(暂不用)
+#define LoadFailImage [UIImage imageNamed:@"LoadFailImage"]          //加载失败图(暂不用)

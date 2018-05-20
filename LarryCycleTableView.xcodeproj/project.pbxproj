@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0735956676F6303D88BBE83E /* libPods-LarryCycleTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2713D3F28010513D9F86599B /* libPods-LarryCycleTableView.a */; };
+		9198AAB820AF2B5D00750253 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9198AAB720AF2B5D00750253 /* AppDelegate.m */; };
+		9198AABE20AF2B5D00750253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9198AABC20AF2B5D00750253 /* Main.storyboard */; };
+		9198AAC020AF2B5D00750253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9198AABF20AF2B5D00750253 /* Assets.xcassets */; };
+		9198AAC320AF2B5D00750253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9198AAC120AF2B5D00750253 /* LaunchScreen.storyboard */; };
+		9198AAC620AF2B5E00750253 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9198AAC520AF2B5E00750253 /* main.m */; };
+		9198AAF620AF2C0100750253 /* UIColor+hexStringToColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9198AAF520AF2C0100750253 /* UIColor+hexStringToColor.m */; };
+		9198AB0120AF2C0B00750253 /* CycleTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9198AAFA20AF2C0B00750253 /* CycleTableViewVC.m */; };
+		9198AB0220AF2C0B00750253 /* CycleTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9198AAFC20AF2C0B00750253 /* CycleTableViewModel.m */; };
+		9198AB0320AF2C0B00750253 /* CycleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9198AB0020AF2C0B00750253 /* CycleTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2713D3F28010513D9F86599B /* libPods-LarryCycleTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LarryCycleTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B0D8EE5755E722FE315B54 /* Pods-LarryCycleTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LarryCycleTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LarryCycleTableView/Pods-LarryCycleTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		6B4F31DFDCF69E5210563287 /* Pods-LarryCycleTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LarryCycleTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-LarryCycleTableView/Pods-LarryCycleTableView.release.xcconfig"; sourceTree = "<group>"; };
+		9198AAB320AF2B5D00750253 /* LarryCycleTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LarryCycleTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9198AAB620AF2B5D00750253 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9198AAB720AF2B5D00750253 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9198AABD20AF2B5D00750253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9198AABF20AF2B5D00750253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9198AAC220AF2B5D00750253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9198AAC420AF2B5E00750253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9198AAC520AF2B5E00750253 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9198AAF420AF2C0100750253 /* UIColor+hexStringToColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hexStringToColor.h"; sourceTree = "<group>"; };
+		9198AAF520AF2C0100750253 /* UIColor+hexStringToColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hexStringToColor.m"; sourceTree = "<group>"; };
+		9198AAF920AF2C0B00750253 /* CycleTableViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleTableViewVC.h; sourceTree = "<group>"; };
+		9198AAFA20AF2C0B00750253 /* CycleTableViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleTableViewVC.m; sourceTree = "<group>"; };
+		9198AAFC20AF2C0B00750253 /* CycleTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleTableViewModel.m; sourceTree = "<group>"; };
+		9198AAFD20AF2C0B00750253 /* CycleTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleTableViewModel.h; sourceTree = "<group>"; };
+		9198AAFF20AF2C0B00750253 /* CycleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleTableViewCell.h; sourceTree = "<group>"; };
+		9198AB0020AF2C0B00750253 /* CycleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleTableViewCell.m; sourceTree = "<group>"; };
+		9198AB0420AF2C2800750253 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9198AAB020AF2B5D00750253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0735956676F6303D88BBE83E /* libPods-LarryCycleTableView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DCE064380A2167C51FE8E0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2713D3F28010513D9F86599B /* libPods-LarryCycleTableView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53C585F02A8979240ABFB329 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31B0D8EE5755E722FE315B54 /* Pods-LarryCycleTableView.debug.xcconfig */,
+				6B4F31DFDCF69E5210563287 /* Pods-LarryCycleTableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9198AAAA20AF2B5D00750253 = {
+			isa = PBXGroup;
+			children = (
+				9198AAB520AF2B5D00750253 /* LarryCycleTableView */,
+				9198AAB420AF2B5D00750253 /* Products */,
+				53C585F02A8979240ABFB329 /* Pods */,
+				1DCE064380A2167C51FE8E0A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9198AAB420AF2B5D00750253 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9198AAB320AF2B5D00750253 /* LarryCycleTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9198AAB520AF2B5D00750253 /* LarryCycleTableView */ = {
+			isa = PBXGroup;
+			children = (
+				9198AAF720AF2C0B00750253 /* CycleTableViewMoudle */,
+				9198AACE20AF2BD800750253 /* Vender */,
+				9198AAB620AF2B5D00750253 /* AppDelegate.h */,
+				9198AAB720AF2B5D00750253 /* AppDelegate.m */,
+				9198AB0420AF2C2800750253 /* PrefixHeader.pch */,
+				9198AABC20AF2B5D00750253 /* Main.storyboard */,
+				9198AABF20AF2B5D00750253 /* Assets.xcassets */,
+				9198AAC120AF2B5D00750253 /* LaunchScreen.storyboard */,
+				9198AAC420AF2B5E00750253 /* Info.plist */,
+				9198AAC520AF2B5E00750253 /* main.m */,
+			);
+			path = LarryCycleTableView;
+			sourceTree = "<group>";
+		};
+		9198AACE20AF2BD800750253 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				9198AAF320AF2C0100750253 /* Helper */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		9198AAF320AF2C0100750253 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9198AAF420AF2C0100750253 /* UIColor+hexStringToColor.h */,
+				9198AAF520AF2C0100750253 /* UIColor+hexStringToColor.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9198AAF720AF2C0B00750253 /* CycleTableViewMoudle */ = {
+			isa = PBXGroup;
+			children = (
+				9198AAF820AF2C0B00750253 /* VC */,
+				9198AAFB20AF2C0B00750253 /* Model */,
+				9198AAFE20AF2C0B00750253 /* View */,
+			);
+			path = CycleTableViewMoudle;
+			sourceTree = "<group>";
+		};
+		9198AAF820AF2C0B00750253 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				9198AAF920AF2C0B00750253 /* CycleTableViewVC.h */,
+				9198AAFA20AF2C0B00750253 /* CycleTableViewVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		9198AAFB20AF2C0B00750253 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9198AAFD20AF2C0B00750253 /* CycleTableViewModel.h */,
+				9198AAFC20AF2C0B00750253 /* CycleTableViewModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9198AAFE20AF2C0B00750253 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9198AAFF20AF2C0B00750253 /* CycleTableViewCell.h */,
+				9198AB0020AF2C0B00750253 /* CycleTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9198AAB220AF2B5D00750253 /* LarryCycleTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9198AAC920AF2B5E00750253 /* Build configuration list for PBXNativeTarget "LarryCycleTableView" */;
+			buildPhases = (
+				21E544BC0097479B33C9C405 /* [CP] Check Pods Manifest.lock */,
+				9198AAAF20AF2B5D00750253 /* Sources */,
+				9198AAB020AF2B5D00750253 /* Frameworks */,
+				9198AAB120AF2B5D00750253 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LarryCycleTableView;
+			productName = LarryCycleTableView;
+			productReference = 9198AAB320AF2B5D00750253 /* LarryCycleTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9198AAAB20AF2B5D00750253 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = LarryTwofly;
+				TargetAttributes = {
+					9198AAB220AF2B5D00750253 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9198AAAE20AF2B5D00750253 /* Build configuration list for PBXProject "LarryCycleTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9198AAAA20AF2B5D00750253;
+			productRefGroup = 9198AAB420AF2B5D00750253 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9198AAB220AF2B5D00750253 /* LarryCycleTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9198AAB120AF2B5D00750253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9198AAC320AF2B5D00750253 /* LaunchScreen.storyboard in Resources */,
+				9198AAC020AF2B5D00750253 /* Assets.xcassets in Resources */,
+				9198AABE20AF2B5D00750253 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21E544BC0097479B33C9C405 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LarryCycleTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9198AAAF20AF2B5D00750253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9198AAC620AF2B5E00750253 /* main.m in Sources */,
+				9198AB0320AF2C0B00750253 /* CycleTableViewCell.m in Sources */,
+				9198AAB820AF2B5D00750253 /* AppDelegate.m in Sources */,
+				9198AAF620AF2C0100750253 /* UIColor+hexStringToColor.m in Sources */,
+				9198AB0220AF2C0B00750253 /* CycleTableViewModel.m in Sources */,
+				9198AB0120AF2C0B00750253 /* CycleTableViewVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9198AABC20AF2B5D00750253 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9198AABD20AF2B5D00750253 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9198AAC120AF2B5D00750253 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9198AAC220AF2B5D00750253 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9198AAC720AF2B5E00750253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9198AAC820AF2B5E00750253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9198AACA20AF2B5E00750253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B0D8EE5755E722FE315B54 /* Pods-LarryCycleTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J74PEWSDMF;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LarryCycleTableView/PrefixHeader.pch";
+				INFOPLIST_FILE = LarryCycleTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LarryTwoflyID.LarryCycleTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9198AACB20AF2B5E00750253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4F31DFDCF69E5210563287 /* Pods-LarryCycleTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J74PEWSDMF;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LarryCycleTableView/PrefixHeader.pch";
+				INFOPLIST_FILE = LarryCycleTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LarryTwoflyID.LarryCycleTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9198AAAE20AF2B5D00750253 /* Build configuration list for PBXProject "LarryCycleTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9198AAC720AF2B5E00750253 /* Debug */,
+				9198AAC820AF2B5E00750253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9198AAC920AF2B5E00750253 /* Build configuration list for PBXNativeTarget "LarryCycleTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9198AACA20AF2B5E00750253 /* Debug */,
+				9198AACB20AF2B5E00750253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9198AAAB20AF2B5D00750253 /* Project object */;
+}
